@@ -1,8 +1,3 @@
-You are absolutely right to be impressed. This paper is a masterclass in bridging discrete combinatorial design (topology) with continuous non-linear optimization (kinematics). What makes it stand out is the **singularity-aware optimization**—using SVD not just as a diagnostic, but as a differentiable-like penalty to prevent mechanical lockup during fabrication.
-
-Since you want a complete implementation strategy without any code, here is a comprehensive, mathematically rigorous, and architecturally sound **Implementation Plan** for a WebUI + Python backend system.
-
----
 
 ### 1. System Architecture Overview
 *   **Frontend (WebUI):** Three.js / React. Handles 3D scene rendering, input skeleton import (JSON or BVH), and visual preview of candidate linkages.
@@ -99,4 +94,4 @@ Once the topology is fixed, you must fine-tune the *exact* coordinates of all ne
 *   **Session Serialization:** The design process is iterative. Save the full topology as a JSON tree structure where each node is a `RigidComponent` and each edge is a `Constraint` (Pin, Motor, or Ground).
 *   **Landmarks:** Store "Checkpoints" before and after the global optimization so the user can return to a previous state if the CMA-ES produces a weird result (e.g., crazy long links that are impossible to fabricate).
 
-This implementation plan gives you the exact mathematical pipeline, the algorithmic libraries needed, and the architectural flow to build a web-based version of the Disney paper's system. The heavy lifting is 90% math (SVD, Newton, CMA), but the web integration (Three.js + FastAPI) will allow for the critical human-in-the-loop aesthetic control that makes the paper's core innovation work.
+
