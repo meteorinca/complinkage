@@ -1,0 +1,33 @@
+{
+  "linkage": {
+    "q_a": [
+      24.993478175862247,
+      0.028339883408743057
+    ],
+    "q_b": [
+      55.03624948397984,
+      -0.21626928055372757
+    ],
+    "length": 62.69507495998135,
+    "objective": 1.5333000003699285e-05,
+    "distance_variance": 2.682444254035885e-07,
+    "distance_cv": 0.0004215986021171106,
+    "minimum_moment_arm": 0.030857016797086276,
+    "percentile05_moment_arm": 1.6093185491831445,
+    "mean_moment_arm": 15.038546860899901,
+    "area_energy": 0.00014493863346398683,
+    "converged": true,
+    "iterations": 0
+  },
+  "spline": {
+    "length": 62.69507495998135,
+    "start_tangent_angle": 3.1017851013819113,
+    "end_tangent_angle": -1.5564625647804302,
+    "bend_fraction": 0.08
+  },
+  "layers": {},
+  "fabrication": {
+    "thickness": 3.0,
+    "width": 5.0
+  }
+}
